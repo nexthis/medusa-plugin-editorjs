@@ -38,6 +38,12 @@ This starter is compatible with versions >= 2.4.0 of `@medusajs/medusa`.
 
 ## Getting Started
 
+Run the following command to install the plugin with npm: \
+```npm install --save medusa-plugin-editorjs```
+
+Or with yarn:: \
+```yarn add medusa-plugin-editorjs```
+
 Visit the [Quickstart Guide](https://docs.medusajs.com/learn/installation) to set up a server.
 
 Visit the [Plugins documentation](https://docs.medusajs.com/learn/fundamentals/plugins) to learn more about plugins and how to create them.
