@@ -1,0 +1,134 @@
+.dark .ce-popover,
+.dark .ce-popover-item,
+.dark .ce-popover-item__icon,
+.dark .ce-popover-items,
+.dark .ce-popover__container,
+.dark .ce-popover-item:hover {
+  background-color: var(--bg-highlight);
+  border-color: var(--border-strong);
+}
+
+.dark .ce-popover__container {
+  background: var(--bg-highlight);
+}
+
+.dark .ce-popover--opened>.ce-popover__container {
+  border: 1px solid var(--border-strong);
+}
+
+.dark .ce-popover-item-separator__line {
+  border: 1px solid var(--border-strong);
+}
+
+.dark .ce-toolbar__plus,
+.dark .ce-toolbar__settings-btn,
+.dark .ce-popover-item__title,
+.dark .ce-inline-tool,
+.dark .ce-inline-tool--link,
+.dark .ce-popover-item__icon,
+.dark .ce-popover-item {
+  color: var(--fg-base);
+}
+
+.dark .cdx-search-field.ce-popover__search {
+  background-color: var(--bg-component-hover);
+  border-color: var(--border-interactive);
+}
+
+.dark .cdx-search-field__input {
+  color: var(--fg-base);
+}
+
+.dark .cdx-block,
+.dark .ce-block {
+  color: var(--fg-base);
+}
+
+.dark .ce-inline-toolbar,
+.dark .ce-conversion-tool__icon,
+.dark .ce-popover-item__icon,
+.dark .link-tool__content--rendered,
+.dark .tc-popover__item-icon {
+  color: var(--fg-base);
+  background-color: var(--bg-highlight);
+  border-color: var(--border-strong);
+}
+
+.dark .ce-popover,
+.dark .ce-conversion-toolbar,
+.dark .ce-inline-toolbar,
+.dark .tc-popover {
+  background-color: var(--bg-overlay);
+  border-color: var(--border-strong);
+  box-shadow: 0 3px 15px -3px var(--border-strong);
+}
+
+.dark .ce-inline-tool {
+  color: var(--fg-interactive);
+}
+
+.dark .ce-inline-tool:hover,
+.dark .ce-inline-toolbar__dropdown:hover,
+.dark .ce-toolbar__plus:hover,
+.dark .ce-toolbar__settings-btn:hover,
+.dark .ce-conversion-tool:hover,
+.dark .ce-popover-item:hover {
+  background-color: var(--button-inverted-hover);
+}
+
+.dark *::selection,
+.dark .ce-block.ce-block--selected .ce-block__content {
+  background-color: var(--button-inverted-hover);
+}
+
+.dark .ce-popover__items {
+  scrollbar-color: var(--border-strong) var(--bg-highlight);
+}
+
+/* table class wrapper */
+.dark .tc-wrap,
+.dark .tc-wrap * {
+  --color-border: var(--border-strong);
+  --color-text-secondary: var(--fg-base);
+  --color-background: var(--button-inverted-hover);
+  --toggler-dots-color: var(--button-inverted-hover);
+  --toggler-dots-color-hovered: var(--fg-base);
+}
+
+@media (max-width: 650px) {
+  .dark .ce-toolbar__settings-btn,
+  .dark .ce-toolbar__plus {
+    background-color: var(--bg-overlay);
+    border-color: var(--border-strong);
+    box-shadow: 0 3px 15px -3px var(--border-strong);
+  }
+}
+
+
+
+
+
+
+.codex-editor h1 {
+    font-size: 48px;
+}
+
+.codex-editor h2 {
+    font-size: 36px;
+}
+
+.codex-editor h3 {
+    font-size: 30px;
+}
+
+.codex-editor h4 {
+    font-size: 24px;
+}
+
+.codex-editor h5 {
+    font-size: 20px;
+}
+.codex-editor h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
