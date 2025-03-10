@@ -4,20 +4,22 @@
 .dark .ce-popover-items,
 .dark .ce-popover__container,
 .dark .ce-popover-item:hover {
-  background-color: var(--bg-highlight);
-  border-color: var(--border-strong);
+  --color-background-item-hover: var(--bg-base);
+  background-color: var(--bg-base);
+  border-color: var(--border-base);
+  background: var(--bg-base);
 }
 
 .dark .ce-popover__container {
-  background: var(--bg-highlight);
+  background: var(--bg-base);
 }
 
 .dark .ce-popover--opened>.ce-popover__container {
-  border: 1px solid var(--border-strong);
+  border: 1px solid var(--border-base);
 }
 
 .dark .ce-popover-item-separator__line {
-  border: 1px solid var(--border-strong);
+  border: 1px solid var(--border-base);
 }
 
 .dark .ce-toolbar__plus,
@@ -25,14 +27,13 @@
 .dark .ce-popover-item__title,
 .dark .ce-inline-tool,
 .dark .ce-inline-tool--link,
-.dark .ce-popover-item__icon,
-.dark .ce-popover-item {
+.dark .ce-popover-item__icon {
   color: var(--fg-base);
 }
 
 .dark .cdx-search-field.ce-popover__search {
-  background-color: var(--bg-component-hover);
-  border-color: var(--border-interactive);
+  background-color: var(--bg-base);;
+  color: var(--fg-base);
 }
 
 .dark .cdx-search-field__input {
@@ -47,24 +48,23 @@
 .dark .ce-inline-toolbar,
 .dark .ce-conversion-tool__icon,
 .dark .ce-popover-item__icon,
-.dark .link-tool__content--rendered,
 .dark .tc-popover__item-icon {
   color: var(--fg-base);
-  background-color: var(--bg-highlight);
-  border-color: var(--border-strong);
+  background-color: var(--bg-base);
+  border-color: var(--border-base);
 }
 
 .dark .ce-popover,
 .dark .ce-conversion-toolbar,
 .dark .ce-inline-toolbar,
 .dark .tc-popover {
-  background-color: var(--bg-overlay);
-  border-color: var(--border-strong);
-  box-shadow: 0 3px 15px -3px var(--border-strong);
+  background-color: var(--bg-component);
+  border-color: var(--border-base);
+  box-shadow: 0 3px 15px -3px var(--border-base);
 }
 
 .dark .ce-inline-tool {
-  color: var(--fg-interactive);
+  color: var(--fg-base);
 }
 
 .dark .ce-inline-tool:hover,
@@ -73,39 +73,36 @@
 .dark .ce-toolbar__settings-btn:hover,
 .dark .ce-conversion-tool:hover,
 .dark .ce-popover-item:hover {
-  background-color: var(--button-inverted-hover);
+  background-color: var(--bg-component-hover);
 }
 
 .dark *::selection,
 .dark .ce-block.ce-block--selected .ce-block__content {
-  background-color: var(--button-inverted-hover);
+  background-color: var(--bg-component-hover);
 }
 
 .dark .ce-popover__items {
-  scrollbar-color: var(--border-strong) var(--bg-highlight);
+  scrollbar-color: var(--border-base) var(--bg-base);
 }
 
 /* table class wrapper */
 .dark .tc-wrap,
 .dark .tc-wrap * {
-  --color-border: var(--border-strong);
+  --color-border: var(--border-base);
   --color-text-secondary: var(--fg-base);
-  --color-background: var(--button-inverted-hover);
-  --toggler-dots-color: var(--button-inverted-hover);
+  --color-background: var(--bg-component-hover);
+  --toggler-dots-color: var(--bg-component-hover);
   --toggler-dots-color-hovered: var(--fg-base);
 }
 
 @media (max-width: 650px) {
   .dark .ce-toolbar__settings-btn,
   .dark .ce-toolbar__plus {
-    background-color: var(--bg-overlay);
-    border-color: var(--border-strong);
-    box-shadow: 0 3px 15px -3px var(--border-strong);
+    background-color: var(--bg-component);
+    border-color: var(--border-base);
+    box-shadow: 0 3px 15px -3px var(--border-base);
   }
 }
-
-
-
 
 
 
