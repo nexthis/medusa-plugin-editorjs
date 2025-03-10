@@ -8,7 +8,7 @@
   </a>
 </p>
 <h1 align="center">
-  Medusa Plugin Starter
+  Medusa EditorJS Plugin
 </h1>
 
 <h4 align="center">
@@ -44,11 +44,25 @@ Run the following command to install the plugin with npm: \
 Or with yarn:: \
 ```yarn add medusa-plugin-editorjs```
 
-Visit the [Quickstart Guide](https://docs.medusajs.com/learn/installation) to set up a server.
+> medusa-config.ts
+```js 
 
-Visit the [Plugins documentation](https://docs.medusajs.com/learn/fundamentals/plugins) to learn more about plugins and how to create them.
+import { loadEnv, defineConfig } from '@medusajs/framework/utils'
 
-Visit the [Docs](https://docs.medusajs.com/learn/installation#get-started) to learn more about our system requirements.
+loadEnv(process.env.NODE_ENV || 'development', process.cwd())
+
+module.exports = defineConfig({
+  projectConfig: {...},
+  plugins: [
+    {
+      resolve: "medusa-plugin-editorjs",
+      options: {},
+    },
+  ],
+})
+
+```
+
 
 ## What is Medusa
 
