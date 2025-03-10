@@ -37,6 +37,7 @@
 This starter is compatible with versions >= 2.4.0 of `@medusajs/medusa`. 
 
 ## Getting Started
+> Install 
 
 Run the following command to install the plugin with npm: \
 ```npm install --save medusa-plugin-editorjs```
@@ -44,7 +45,7 @@ Run the following command to install the plugin with npm: \
 Or with yarn:: \
 ```yarn add medusa-plugin-editorjs```
 
-> medusa-config.ts
+> Add in medusa-config.ts
 ```js 
 
 import { loadEnv, defineConfig } from '@medusajs/framework/utils'
@@ -62,6 +63,9 @@ module.exports = defineConfig({
 })
 
 ```
+> Run
+
+``npx medusa db:migrate``
 
 
 ## What is Medusa
