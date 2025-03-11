@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-editorjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "EditorJS for MedusaJS v2",
   "author": "Paweł Romanowski (nexthis)",
   "license": "MIT",
