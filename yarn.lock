@@ -1699,6 +1699,15 @@
     fetch-event-stream "^0.1.5"
     qs "^6.12.1"
 
+"@medusajs/js-sdk@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-2.6.1.tgz#2871a1d887cae49be9bb68c29ddcc5ee74b74ced"
+  integrity sha512-X7gTuWSIEocBefs5Sqti+bax2zlXpsYDvFFZjKLAwLgxQdb4QJT3j8HXgRVkWo9Lcmjs1sL/wenmnYUgDxGtdQ==
+  dependencies:
+    "@medusajs/types" "2.6.1"
+    fetch-event-stream "^0.1.5"
+    qs "^6.12.1"
+
 "@medusajs/link-modules@~2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@medusajs/link-modules/-/link-modules-2.4.0.tgz#fafd024b55f529315ef34b180f0b91dbe3dab8ad"
@@ -1907,6 +1916,13 @@
     express "^4.21.0"
     get-port "^5.1.0"
     randomatic "^3.1.1"
+
+"@medusajs/types@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.6.1.tgz#acb7caf9f6a3d81c7b30dd144214894a876a9e63"
+  integrity sha512-cysEyeh/h1D3mkYSeaoo6fjpfCqHUGTaIoPLUxU3e2oyJ5GhwdpKB4N3mdkUFBSWmuWn5x7eLAwb7DqM4UzX+w==
+  dependencies:
+    bignumber.js "^9.1.2"
 
 "@medusajs/types@~2.4.0":
   version "2.4.0"
